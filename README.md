@@ -77,7 +77,7 @@ The project is built entirely using **HTML5** and **Tailwind CSS**, focusing on 
 
 🔗 **Live Website**
 
-
+https://sivapachu.github.io/botanova_frontend/
 
 ---
 
@@ -85,7 +85,7 @@ The project is built entirely using **HTML5** and **Tailwind CSS**, focusing on 
 
 🔗 **GitHub**
 
-
+https://github.com/SivaPachu/botanova_frontend
 
 ---
 
