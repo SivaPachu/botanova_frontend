@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botanova</title>
+
+    <!-- Tailwind CSS CDN Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Responsive Navbar Section-->
+    <nav class="bg-green-100 p-5 flex justify-between items-center shadow-lg sticky top-0 z-50">
+        <h1 class="text-4xl font-bold text-green-900">Botanova</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden cursor-pointer">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="flex gap-4 hidden md:flex">
+            <li>
+                <a href="index.html" class="text-green-700 hover:underline hover:text-green-900">Home</a>
+            </li>
+            <li>
+                <a href="products.html" class="text-green-700 hover:underline hover:text-green-900">Products</a>
+            </li>
+            <li>
+                <a href="contact.html" class="text-green-700 hover:underline hover:text-green-900">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Our Products Section -->
+    <section class="text-center p-4">
+        <h1 class="text-3xl font-bold mt-4 mb-4">Our Products</h1>
+        <p class="text-gray-700">Check out our wide range of eco-friendly products!</p>
+
+        <!-- Search Bar -->
+        <div class="mt-4 container mx-auto flex justify-center">
+            <input type="text" placeholder="Search products..."
+                class="border border-gray-300 rounded-lg py-2 px-4 w-2/3 md:w-1/2 focus:outline-none focus:ring-2 focus:ring-green-500">
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8">
+
+            <div>
+                <img src="/images/products/aglaonema_plant.jpg" alt="Aglaonema Plant"
+                    class="inline rounded-lg hover:shadow-lg transform hover:-translate-y-2 transition duration-300">
+                <h1>Aglaonema Plant</h1>
+                <p>₹799</p>
+            </div>
+
+            <div>
+                <img src="/images/products/aloe_vera_plant.jpg" alt="Aloe Vera Plant"
+                    class="inline rounded-lg hover:shadow-lg transform hover:-translate-y-2 transition duration-300">
+                <h1>Aloe Vera Plant</h1>
+                <p>₹299</p>
+            </div>
+
+            <div>
+                <img src="/images/products/areca_palm_plant.jpg" alt="Areca Palm"
+                    class="inline rounded-lg hover:shadow-lg transform hover:-translate-y-2 transition duration-300">
+                <h1>Areca Palm</h1>
+                <p>₹1,199</p>
+            </div>
+
+            <div>
+                <img src="/images/products/bamboo_palm_plant.jpg" alt="Bamboo Palm"
+                    class="inline rounded-lg hover:shadow-lg transform hover:-translate-y-2 transition duration-300">
+                <h1>Bamboo Palm</h1>
+                <p>₹1,099</p>
+            </div>
+
+            <div>
+                <img src="/images/products/boston_fern_plant.jpg" alt="Boston Fern"
+                    class="inline rounded-lg hover:shadow-lg transform hover:-translate-y-2 transition duration-300">
+                <h1>Boston Fern</h1>
+                <p>₹749</p>
+            </div>
+
+            <div>
+                <img src="/images/products/cactus_plant.jpg" alt="Cactus"
+                    class="inline rounded-lg hover:shadow-lg transform hover:-translate-y-2 transition duration-300">
+                <h1>Cactus</h1>
+                <p>₹199</p>
+            </div>
+
+            <div>
+                <img src="/images/products/calathea_plant.jpg" alt="Calathea"
+                    class="inline rounded-lg hover:shadow-lg transform hover:-translate-y-2 transition duration-300">
+                <h1>Calathea</h1>
+                <p>₹949</p>
+            </div>
+
+            <div>
+                <img src="/images/products/croton_plant.jpg" alt="Croton Plant"
+                    class="inline rounded-lg hover:shadow-lg transform hover:-translate-y-2 transition duration-300">
+                <h1>Croton Plant</h1>
+                <p>₹699</p>
+            </div>
+
+            <div>
+                <img src="/images/products/english_ivy_plant.jpg" alt="English Ivy"
+                    class="inline rounded-lg hover:shadow-lg transform hover:-translate-y-2 transition duration-300">
+                <h1>English Ivy</h1>
+                <p>₹599</p>
+            </div>
+
+            <div>
+                <img src="/images/products/fiddle_leaf_fig_plant.jpg" alt="Fiddle Leaf Fig"
+                    class="inline rounded-lg hover:shadow-lg transform hover:-translate-y-2 transition duration-300">
+                <h1>Fiddle Leaf Fig</h1>
+                <p>₹1,499</p>
+            </div>
+
+            <div>
+                <img src="/images/products/hanging_plant.jpg" alt="Hanging Plant"
+                    class="inline rounded-lg hover:shadow-lg transform hover:-translate-y-2 transition duration-300">
+                <h1>Hanging Plant</h1>
+                <p>₹649</p>
+            </div>
+
+            <div>
+                <img src="/images/products/jade_plant.jpg" alt="Jade Plant"
+                    class="inline rounded-lg hover:shadow-lg transform hover:-translate-y-2 transition duration-300">
+                <h1>Jade Plant</h1>
+                <p>₹449</p>
+            </div>
+
+            <div>
+                <img src="/images/products/monstera_plant.jpg" alt="Monstera Plant"
+                    class="inline rounded-lg hover:shadow-lg transform hover:-translate-y-2 transition duration-300">
+                <h1>Monstera Plant</h1>
+                <p>₹899</p>
+            </div>
+
+            <div>
+                <img src="/images/products/philodendron_plant.jpg" alt="Philodendron"
+                    class="inline rounded-lg hover:shadow-lg transform hover:-translate-y-2 transition duration-300">
+                <h1>Philodendron</h1>
+                <p>₹899</p>
+            </div>
+
+            <div>
+                <img src="/images/products/rubber_plant.jpg" alt="Rubber Plant"
+                    class="inline rounded-lg hover:shadow-lg transform hover:-translate-y-2 transition duration-300">
+                <h1>Rubber Plant</h1>
+                <p>₹999</p>
+            </div>
+
+            <div>
+                <img src="/images/products/snake_plant.jpg" alt="Snake Plant"
+                    class="inline rounded-lg hover:shadow-lg transform hover:-translate-y-2 transition duration-300">
+                <h1>Snake Plant</h1>
+                <p>₹499</p>
+            </div>
+
+            <div>
+                <img src="/images/products/spider_plant.jpg" alt="Spider Plant"
+                    class="inline rounded-lg hover:shadow-lg transform hover:-translate-y-2 transition duration-300">
+                <h1>Spider Plant</h1>
+                <p>₹399</p>
+            </div>
+
+            <div>
+                <img src="/images/products/succulent_plant.jpg" alt="Succulent Plant"
+                    class="inline rounded-lg hover:shadow-lg transform hover:-translate-y-2 transition duration-300">
+                <h1>Succulent Plant</h1>
+                <p>₹249</p>
+            </div>
+
+            <div>
+                <img src="/images/products/succulent_white_plant.jpg" alt="White Succulent"
+                    class="inline rounded-lg hover:shadow-lg transform hover:-translate-y-2 transition duration-300">
+                <h1>White Succulent</h1>
+                <p>₹299</p>
+            </div>
+
+            <div>
+                <img src="/images/products/zz_plant.jpg" alt="ZZ Plant"
+                    class="inline rounded-lg hover:shadow-lg transform hover:-translate-y-2 transition duration-300">
+                <h1>ZZ Plant</h1>
+                <p>₹799</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-100 p-10 mt-2 gap-4">
+        <h1 class="text-4xl font-bold mb-4">Botanova</h1>
+        <p class="text-gray-700 mb-4">Your one-stop shop for eco-friendly products that make a difference.</p>
+        <p class="text-gray-700 mb-4">Follow us on social media for the latest updates and plant care tips!</p>
+        <div class="flex gap-4 mb-4">
+            <a href="#" class="text-green-900 hover:text-green-700 text-2xl"><i class="fab fa-facebook fa-lg"></i></a>
+            <a href="#" class="text-green-900 hover:text-green-700 text-2xl"><i class="fab fa-twitter fa-lg"></i></a>
+            <a href="#" class="text-green-900 hover:text-green-700 text-2xl"><i class="fab fa-instagram fa-lg"></i></a>
+            <a href="#" class="text-green-900 hover:text-green-700 text-2xl"><i class="fab fa-linkedin fa-lg"></i></a>
+        </div>
+        <p>&copy; 2026 Botanova. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botanova</title>
+
+    <!-- Tailwind CSS CDN Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Responsive Navbar Section-->
+    <nav class="bg-green-100 p-5 flex justify-between items-center shadow-lg sticky top-0 z-50">
+        <h1 class="text-4xl font-bold text-green-900">Botanova</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden cursor-pointer">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="flex gap-4 hidden md:flex">
+            <li>
+                <a href="index.html" class="text-green-700 hover:underline hover:text-green-900">Home</a>
+            </li>
+            <li>
+                <a href="products.html" class="text-green-700 hover:underline hover:text-green-900">Products</a>
+            </li>
+            <li>
+                <a href="contact.html" class="text-green-700 hover:underline hover:text-green-900">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="bg-green-50 py-16 px-6">
+
+        <h1 class="text-4xl font-bold text-center text-green-800 mb-3">
+            Contact Us
+        </h1>
+        <p class="text-center text-gray-600 mb-12">
+            We'd love to hear from you! Whether you have questions about our plants,
+            orders, or plant care, our team is always here to help.
+        </p>
+
+        <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+
+            <div>
+                <img src="/images/contact/contact_banner.jpg" alt="Botanova Plants"
+                    class="rounded-2xl shadow-xl mb-8 lg:mb-8 w-full h-auto object-cover">
+                <h2 class="text-3xl font-bold text-green-800 mb-4">
+                    Grow Green with Botanova 🌱
+                </h2>
+                <p class="text-gray-600 leading-7 mb-6">
+                    At Botanova, we believe every home deserves the beauty of nature.
+                    From premium indoor plants to stylish planters, we bring fresh
+                    greenery directly to your doorstep with love and care.
+                </p>
+
+                <div class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <p class="text-2xl">🌿</p>
+                        <p>Premium quality indoor & outdoor plants.</p>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                        <p class="text-2xl">🚚</p>
+                        <p>Fast, safe and eco-friendly delivery across India.</p>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                        <p class="text-2xl">💬</p>
+                        <p>Friendly customer support for all your plant care needs.</p>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                        <p class="text-2xl">🌎</p>
+                        <p>Committed to sustainable living and greener spaces.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-xl p-8">
+                <h2 class="text-3xl font-bold text-green-800 mb-2">
+                    Send us a Message
+                </h2>
+                <p class="text-gray-600 mb-8">
+                    Fill out the form below and we'll get back to you as soon as possible.
+                </p>
+
+                <div class="grid grid-cols-1 gap-6">
+                    <div>
+                        <p class="block mb-2 font-medium"> Name </p>
+                        <input type="text" id="name" placeholder="Enter your name"
+                            class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500">
+                    </div>
+
+                    <div>
+                        <p class="block mb-2 font-medium"> Email Address </p>
+                        <input type="email" id="email" placeholder="Enter your email"
+                            class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500">
+                    </div>
+
+                    <div>
+                        <p class="block mb-2 font-medium"> Subject </p>
+                        <input type="text" id="subject" placeholder="Subject"
+                            class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500">
+                    </div>
+
+                    <div>
+                        <p class="block mb-2 font-medium"> Message </p>
+                        <textarea id="message" rows="5" placeholder="Write your message..."
+                            class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500"></textarea>
+                    </div>
+
+                    <button type="submit"
+                        class="w-full bg-green-700 text-white py-3 rounded-lg font-semibold hover:bg-green-800 transition">
+                        Send Message
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-100 p-10 mt-2 gap-4">
+        <h1 class="text-4xl font-bold mb-4">Botanova</h1>
+        <p class="text-gray-700 mb-4">Your one-stop shop for eco-friendly products that make a difference.</p>
+        <p class="text-gray-700 mb-4">Follow us on social media for the latest updates and plant care tips!</p>
+        <div class="flex gap-4 mb-4">
+            <a href="#" class="text-green-900 hover:text-green-700 text-2xl"><i class="fab fa-facebook fa-lg"></i></a>
+            <a href="#" class="text-green-900 hover:text-green-700 text-2xl"><i class="fab fa-twitter fa-lg"></i></a>
+            <a href="#" class="text-green-900 hover:text-green-700 text-2xl"><i class="fab fa-instagram fa-lg"></i></a>
+            <a href="#" class="text-green-900 hover:text-green-700 text-2xl"><i class="fab fa-linkedin fa-lg"></i></a>
+        </div>
+        <p>&copy; 2026 Botanova. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
